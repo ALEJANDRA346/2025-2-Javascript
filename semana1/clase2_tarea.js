@@ -8,10 +8,11 @@ async function main() {
       }else if (temperatura >10 && temperatura <20) {
         console.log("Esta templado");
       }else if (temperatura > 20 && temperatura < 30){
-        console.log("Hace calor")
-      }else(temperatura > 30);{
-        console.log ("Hace mucho calor")
-      }
+        console.log("Hace calor");
+      }else if(temperatura > 30){
+        console.log ("Hace mucho calor");
+      }else{}
+        console.log ("No se cumplen los parametros")
 
     }
 
