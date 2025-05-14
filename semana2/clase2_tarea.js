@@ -11,7 +11,9 @@
 // 2. Eliminar fruta
 // 3. Ver lista de frutas
 // 4. Salir
+const { ask } = require('../helpers/input');
 
+async function main() {
 let frutas = [];
 let opcion = '';
 
@@ -50,3 +52,6 @@ while (opcion !== '4'){
          console.log('Opción no permitida. Intenta de nuevo');
     }
 }
+}
+
+main();
