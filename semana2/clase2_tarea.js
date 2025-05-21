@@ -26,7 +26,7 @@ while (opcion !== '4'){
         `4. Salir\n` +
         `Ingresa tu opción: ` );
 
-    if (opcion === '1'){
+    if (opcion === '1'){//agregar fruta
         let frutaNueva = await ask('Ingresa el nombre de la fruta que quieres agregar: ');
         frutas.push(frutaNueva);
         console.log('Fruta Agregada: '+ frutaNueva);
